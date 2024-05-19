@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threads Profile Rater</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Threads Profile Rater</h1>
+        <form id="usernameForm">
+            <input type="text" id="username" placeholder="Enter your @username" required>
+            <button type="submit">Rate Me!</button>
+        </form>
+        <div id="ratingResult" class="hidden">
+            <h2>Rating for <span id="displayUsername"></span></h2>
+            <div id="ratingNumber"></div>
+            <div id="ratingMessage"></div>
+            <img id="ratingGif" src="" alt="Rating GIF">
+        </div>
+        <div id="cheatingMessage" class="hidden">
+            <h2>You better stop cheating!</h2>
+            <img id="cheatingGif" src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" alt="Cheating GIF">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
